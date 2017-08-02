@@ -1,0 +1,1 @@
+^src/app/home/x-large/index.ts 2tsX

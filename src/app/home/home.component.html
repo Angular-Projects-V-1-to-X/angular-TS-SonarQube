@@ -1,0 +1,47 @@
+<div>
+  <h1 x-large class="sample-content">Your Content Here</h1>
+
+  <hr>
+
+  <div>
+    For hot module reloading run
+    <pre>npm run start:hmr</pre>
+  </div>
+
+  <hr>
+
+  <div>
+    <h4>Local State</h4>
+
+    <form (ngSubmit)="submitState(localState.value)" autocomplete="off">
+
+      <input [value]="localState.value" (input)="localState.value = $event.target.value" placeholder="Submit Local State to App State"
+        autofocus>
+
+      <button>Submit Value</button>
+    </form>
+    <!--
+        <input type="text" [value]="localState.value" (input)="localState.value = $event.target.value" autofocus>
+        Rather than wiring up two-way data-binding ourselves with [value] and (input)
+        we can use Angular's [(ngModel)] syntax
+        <input type="text" name="textInput" [(ngModel)]="localState.value" autofocus>
+      -->
+
+    <pre>this.localState = {{ localState | json }}</pre>
+
+    <ul class="media-list">
+      <li class="media">
+        <div class="media-left">
+          <a href="#">
+            <img class="media-object" src="..." alt="...">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Media heading</h4>
+          ...
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</div>

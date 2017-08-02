@@ -1,0 +1,1 @@
+&src/app/+detail/+child-detail/index.ts 2tsX

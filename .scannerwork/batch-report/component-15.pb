@@ -1,0 +1,1 @@
+4src/app/+detail/+child-detail/child-detail.routes.ts 2tsX

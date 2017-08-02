@@ -1,0 +1,1 @@
+vsrc/app/register/index.ts 2tsX

@@ -1,0 +1,1 @@
+#src/app/+barrel/barrel.component.ts 2tsX 

@@ -1,0 +1,1 @@
+\)src/app/home/x-large/x-large.directive.ts 2tsX

@@ -1,0 +1,1 @@
+7src/app/+barrel/+child-barrel/child-barrel.component.ts 2tsX

@@ -1,0 +1,1 @@
+7src/app/+detail/+child-detail/child-detail.component.ts 2tsX

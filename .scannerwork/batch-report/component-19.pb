@@ -1,0 +1,1 @@
+ src/app/+detail/detail.routes.ts 2tsX	

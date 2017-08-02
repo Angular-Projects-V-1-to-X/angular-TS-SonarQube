@@ -1,0 +1,1 @@
+ src/app/+detail/detail.module.ts 2tsX
